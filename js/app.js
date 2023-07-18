@@ -18,14 +18,14 @@ console.log("Practica del To Do List");
         }};
 
 
-        document.addEventListener('DOMContentLoaded',() => {
+        document.addEventListener('DOMContentLoaded', () => {
             pintarTareas()
         })
-
 
         listaTarea.addEventListener('click', e =>{
             btnAccion(e)
         })
+
         formulario.addEventListener('submit', e => {
             e.preventDefault();
             SetTarea(e);
